@@ -1,0 +1,94 @@
+body {
+    background-image: linear-gradient(rgb(239, 255, 210), rgb(189, 255, 169));
+}
+
+* {
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    color: rgb(0, 0, 0)
+}
+
+div {
+    margin-left: 300px;
+    margin-top: 80px;
+    max-width: 900px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: rgb(83, 209, 104);
+    text-align: center;
+}
+
+nav li {
+    color: white;
+    display: inline-block;
+    margin: 0 30px;
+}
+
+#aboutme {
+    margin-top: 140px;
+    max-width: 780px;
+}
+
+#aboutme img {
+    height: 200px;
+    width: auto;
+    border-radius: 30px 10px 30px 10px;
+}
+
+#hobbies img {
+    height: 300px;
+    margin: 10px 30px;
+    border-radius: 50px;
+}
+
+#hobbies li {
+    font-weight: bold;
+}
+
+#contact img {
+    height: 25px;
+    vertical-align: -4px;
+    border: none;
+}
+
+
+#contact li {
+    list-style: none;
+    display: block;
+    position: relative;
+    right: 38px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: black;
+}
+
+#girlfriend {
+    position: absolute;
+    right: 300px;
+    top: 250px;
+}
+
+#girlfriend img {
+    height: 400px;
+}
+
+img {
+    border: 2px solid black;
+}
