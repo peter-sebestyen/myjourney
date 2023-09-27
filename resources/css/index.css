@@ -60,6 +60,10 @@ nav li {
     font-weight: bold;
 }
 
+#projects a {
+    text-decoration: none;
+}
+
 #contact img {
     height: 25px;
     vertical-align: -4px;
